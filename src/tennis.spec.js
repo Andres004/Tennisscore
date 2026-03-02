@@ -1,6 +1,7 @@
 import Tennis from "./tennis.js";
 
 describe("Tennis Scorer", () => {
+
     //Inicio del juego  =>   "Love - Love"
   it("toma en cuenta el caso de inicio del juego", () => {
     let tennis = new Tennis();
@@ -37,14 +38,11 @@ describe("Tennis Scorer", () => {
     expect(tennis.score()).toEqual("Game for Player 1");
   });
 
-  /*it("jugador 1 anota 4 veces jugador dos en cero", () => {
+  it("Jugador 2 anota 1 vez jugador 1 en 0 ", () => {
     let tennis = new Tennis();
-    tennis.player1Scores();
-    tennis.player1Scores();
-    tennis.player1Scores();
-    tennis.player1Scores();
-    expect(tennis.score()).toEqual("Game for player 1");
-  });*/
+    tennis.player2Scores();
+    expect(tennis.score()).toEqual("Love - 15");
+  });
 
 });
 

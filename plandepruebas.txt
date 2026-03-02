@@ -14,14 +14,14 @@ Consigue ventaja y gana el siguiente punto.
 
 PLAN DE PRUEBAS
 ===================
-Inicio del juego  =>   "Love - Love"
-Jugador 1 anota 1 vez jugador 2 en 0=> "15 - Love"
-Jugador 1 anota 2 veces jugador 2 en 0=> "30 - Love"
-Jugador 1 anota 3 veces jugador 2 en 0=> "40 - Love"
-Jugador 1 anota 4 veces jugador 2 en 0=> "Game for Player 1"
+Inicio del juego  =>   "Love - Love" ok
+Jugador 1 anota 1 vez jugador 2 en 0=> "15 - Love" ok
+Jugador 1 anota 2 veces jugador 2 en 0=> "30 - Love" ok
+Jugador 1 anota 3 veces jugador 2 en 0=> "40 - Love" ok
+Jugador 1 anota 4 veces jugador 2 en 0=> "Game for Player 1" ok
 ---
 Jugador 2 anota 1 vez jugador 1 en 0 => "Love - 15"
-Jugador 2 anota 2 veces jugador 1 en 0 => "Love - 30"
+Jugador 2 anota 2 veces jugador 1 en 0 => "Love - 30" 
 Jugador 2 anota 3 veces jugador 1 en 0=> "Love - 40"
 Jugador 2 anota 4 veces jugador 1 en 0=> "Game for Player 2"
 --

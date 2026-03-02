@@ -1,12 +1,19 @@
 class Tennis {
     constructor() {
         this.player1Points = 0;
+        this.player2Points=0;
     }
 
-    score(){
+    score()
+    {
         let player1Score = "Love";
+        let player2Score = "Love";
+
         if(this.player1Points == 1){
             player1Score= "15"
+        } 
+        if(  this.player2Points == 1){
+            player2Score= "15"
         }
         if(this.player1Points == 2){
             player1Score= "30"
@@ -17,11 +24,15 @@ class Tennis {
          if(this.player1Points == 4){
             return "Game for Player 1"
         }
-        return player1Score+" - Love"
+        return player1Score +" - "+ player2Score
     }
+
 
     player1Scores(){
         this.player1Points++;
+    }
+    player2Scores(){
+        this.player2Points++;
     }
 }
 

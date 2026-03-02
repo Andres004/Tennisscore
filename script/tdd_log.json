@@ -278,9 +278,71 @@
     "testId": 9
   },
   {
-    "commitId": "HEAD",
+    "commitId": "54d7181ed0958348a787e11a62ef61b597392790",
     "commitName": "test: succesfull, totally of first block",
     "commitTimestamp": 1772477007515,
     "testId": 9
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 1,
+    "numTotalTests": 7,
+    "timestamp": 1772477471106,
+    "success": false,
+    "testId": 10
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 5,
+    "numTotalTests": 7,
+    "timestamp": 1772477588419,
+    "success": false,
+    "testId": 10
+  },
+  {
+    "numPassedTests": 1,
+    "failedTests": 5,
+    "numTotalTests": 6,
+    "timestamp": 1772477805695,
+    "success": false,
+    "testId": 10
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 1,
+    "numTotalTests": 6,
+    "timestamp": 1772478208457,
+    "success": false,
+    "testId": 10
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 1,
+    "numTotalTests": 6,
+    "timestamp": 1772478278044,
+    "success": false,
+    "testId": 10
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 2,
+    "numTotalTests": 6,
+    "timestamp": 1772478361221,
+    "success": false,
+    "testId": 10
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 0,
+    "numTotalTests": 6,
+    "timestamp": 1772478470746,
+    "success": true,
+    "testId": 10
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test: succesfull,Jugador 2 anota 1 vez jugador 1 en 0, 6/6",
+    "commitTimestamp": 1772478533668,
+    "testId": 10
   }
 ]
