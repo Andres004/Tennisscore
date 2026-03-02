@@ -152,12 +152,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e67a1cc1aa95c06d53cb79f4280f444053a6868c",
     "author": "unknown",
     "commit": {
       "date": "2026-03-02T16:15:20.000Z",
       "message": "test: first block of test succesfull",
-      "url": "https://github.com/Andres004/Tennisscore/commit/HEAD"
+      "url": "https://github.com/Andres004/Tennisscore/commit/e67a1cc1aa95c06d53cb79f4280f444053a6868c"
     },
     "stats": {
       "total": 5,
@@ -167,6 +167,25 @@
     },
     "coverage": 100,
     "test_count": 5,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "unknown",
+    "commit": {
+      "date": "2026-03-02T18:43:25.000Z",
+      "message": "test: succesfull, totally of first block",
+      "url": "https://github.com/Andres004/Tennisscore/commit/HEAD"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 13,
+      "deletions": 3,
+      "date": "2026-03-02"
+    },
+    "coverage": 100,
+    "test_count": 6,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -6,7 +6,6 @@ describe("Tennis Scorer", () => {
     let tennis = new Tennis();
     expect(tennis.score()).toEqual("Love - Love");
   });
-  //prime bloque de pruebas exitoso
   //Jugador 1 anota 1 vez jugador 2 en 0=> "15 - Love"
   it("jugador 1 anota jugador dos en cero", () => {
     let tennis = new Tennis();   //Inicializar  ->ARRANGE
@@ -14,7 +13,6 @@ describe("Tennis Scorer", () => {
     let resultado =tennis.score() //Ejecutar metodo a probar  ->ACT
     expect(resultado).toEqual("15 - Love"); //Vericar    ->ASSERT
   });
-
 
   it("jugador 1 anota 2 veces jugador dos en cero", () => {
     let tennis = new Tennis();
@@ -28,6 +26,15 @@ describe("Tennis Scorer", () => {
     tennis.player1Scores();
     tennis.player1Scores();
     expect(tennis.score()).toEqual("40 - Love");
+  });
+
+   it("jugador 1 anota 4 veces jugador dos en cero", () => {
+    let tennis = new Tennis();
+    tennis.player1Scores();
+    tennis.player1Scores();
+    tennis.player1Scores();
+    tennis.player1Scores();
+    expect(tennis.score()).toEqual("Game for Player 1");
   });
 
   /*it("jugador 1 anota 4 veces jugador dos en cero", () => {

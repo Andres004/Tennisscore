@@ -2,7 +2,7 @@ class Tennis {
     constructor() {
         this.player1Points = 0;
     }
-    
+
     score(){
         let player1Score = "Love";
         if(this.player1Points == 1){
@@ -13,6 +13,9 @@ class Tennis {
         }
         if(this.player1Points == 3){
             player1Score= "40"
+        }
+         if(this.player1Points == 4){
+            return "Game for Player 1"
         }
         return player1Score+" - Love"
     }

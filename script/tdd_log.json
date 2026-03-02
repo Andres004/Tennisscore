@@ -248,9 +248,39 @@
     "testId": 8
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e67a1cc1aa95c06d53cb79f4280f444053a6868c",
     "commitName": "test: first block of test succesfull",
     "commitTimestamp": 1772468122686,
     "testId": 8
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 1,
+    "numTotalTests": 6,
+    "timestamp": 1772468491232,
+    "success": false,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 1,
+    "numTotalTests": 6,
+    "timestamp": 1772468518798,
+    "success": false,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 0,
+    "numTotalTests": 6,
+    "timestamp": 1772476952120,
+    "success": true,
+    "testId": 9
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test: succesfull, totally of first block",
+    "commitTimestamp": 1772477007515,
+    "testId": 9
   }
 ]
