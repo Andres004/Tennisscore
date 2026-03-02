@@ -18,6 +18,9 @@ class Tennis {
         if(this.player1Points == 2){
             player1Score= "30"
         }
+        if(this.player2Points == 2){
+            player2Score= "30"
+        }
         if(this.player1Points == 3){
             player1Score= "40"
         }
