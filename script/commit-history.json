@@ -247,12 +247,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "fcfa0a2d063ca3688bd740890adc9c6bc3d04018",
     "author": "unknown",
     "commit": {
       "date": "2026-03-02T19:17:11.000Z",
       "message": "test: succesfull,Jugador 2 anota 4 vez jugador 1 en 0, 9/9",
-      "url": "https://github.com/Andres004/Tennisscore/commit/HEAD"
+      "url": "https://github.com/Andres004/Tennisscore/commit/fcfa0a2d063ca3688bd740890adc9c6bc3d04018"
     },
     "stats": {
       "total": 20,
@@ -262,6 +262,25 @@
     },
     "coverage": 100,
     "test_count": 9,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "unknown",
+    "commit": {
+      "date": "2026-03-02T19:24:20.000Z",
+      "message": "test: succesfull, jugador 1 anota 3 veces y jugador 2 anota 3 veces",
+      "url": "https://github.com/Andres004/Tennisscore/commit/HEAD"
+    },
+    "stats": {
+      "total": 18,
+      "additions": 18,
+      "deletions": 0,
+      "date": "2026-03-02"
+    },
+    "coverage": 100,
+    "test_count": 10,
     "failed_tests": 0,
     "conclusion": "success"
   }
