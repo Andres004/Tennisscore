@@ -354,9 +354,23 @@
     "testId": 11
   },
   {
-    "commitId": "HEAD",
+    "commitId": "11fdf3e21bd94f69632f01c08d9c9869eeb0fbcf",
     "commitName": "test: succesfull,Jugador 2 anota 2 vez jugador 1 en 0, 7/7",
     "commitTimestamp": 1772478648686,
     "testId": 11
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 0,
+    "numTotalTests": 8,
+    "timestamp": 1772478724727,
+    "success": true,
+    "testId": 12
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test: succesfull,Jugador 2 anota 3 vez jugador 1 en 0, 8/8",
+    "commitTimestamp": 1772478739885,
+    "testId": 12
   }
 ]
