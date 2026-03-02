@@ -22,7 +22,7 @@ Jugador 1 anota 4 veces jugador 2 en 0=> "Game for Player 1" ok
 ---
 Jugador 2 anota 1 vez jugador 1 en 0 => "Love - 15" ok
 Jugador 2 anota 2 veces jugador 1 en 0 => "Love - 30" ok
-Jugador 2 anota 3 veces jugador 1 en 0=> "Love - 40"
+Jugador 2 anota 3 veces jugador 1 en 0=> "Love - 40" ok
 Jugador 2 anota 4 veces jugador 1 en 0=> "Game for Player 2"
 --
 Jugador 1 anota 3 veces jugador 2 anota 3 veces=> "Deuce"
