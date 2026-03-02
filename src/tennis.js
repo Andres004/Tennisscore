@@ -2,6 +2,7 @@ class Tennis {
     constructor() {
         this.player1Points = 0;
     }
+    
     score(){
         let player1Score = "Love";
         if(this.player1Points == 1){

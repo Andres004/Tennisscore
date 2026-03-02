@@ -234,9 +234,23 @@
     "testId": 6
   },
   {
-    "commitId": "HEAD",
+    "commitId": "eafb634edabc30e3087647172a71cab40ccccfd6",
     "commitName": "doc: documentacion sobre el diseno",
     "commitTimestamp": 1772116727708,
     "testId": 7
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 0,
+    "numTotalTests": 5,
+    "timestamp": 1772468039455,
+    "success": true,
+    "testId": 8
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test: first block of test succesfull",
+    "commitTimestamp": 1772468122686,
+    "testId": 8
   }
 ]
