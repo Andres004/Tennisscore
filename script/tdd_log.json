@@ -506,9 +506,31 @@
     "testId": 19
   },
   {
-    "commitId": "HEAD",
+    "commitId": "734bf5dd51c3444840ca568e7970cc630a1d315a",
     "commitName": "test: succesfull,si el jugador 2 tiene ventaja y anota de nuevo => Game for Player 2, 14/14",
     "commitTimestamp": 1772504526124,
     "testId": 19
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 1,
+    "numTotalTests": 15,
+    "timestamp": 1772504728321,
+    "success": false,
+    "testId": 20
+  },
+  {
+    "numPassedTests": 15,
+    "failedTests": 0,
+    "numTotalTests": 15,
+    "timestamp": 1772504755960,
+    "success": true,
+    "testId": 20
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test:vuelve a Deuce si el jugador con desventaja anota y empata en 4 o más, 15/15",
+    "commitTimestamp": 1772504800048,
+    "testId": 20
   }
 ]

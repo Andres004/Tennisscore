@@ -361,12 +361,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "734bf5dd51c3444840ca568e7970cc630a1d315a",
     "author": "unknown",
     "commit": {
       "date": "2026-03-03T02:22:04.000Z",
       "message": "test: succesfull,si el jugador 2 tiene ventaja y anota de nuevo => Game for Player 2, 14/14",
-      "url": "https://github.com/Andres004/Tennisscore/commit/HEAD"
+      "url": "https://github.com/Andres004/Tennisscore/commit/734bf5dd51c3444840ca568e7970cc630a1d315a"
     },
     "stats": {
       "total": 22,
@@ -376,6 +376,25 @@
     },
     "coverage": 93.94,
     "test_count": 14,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "unknown",
+    "commit": {
+      "date": "2026-03-03T02:26:38.000Z",
+      "message": "test:vuelve a Deuce si el jugador con desventaja anota y empata en 4 o más, 15/15",
+      "url": "https://github.com/Andres004/Tennisscore/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 11,
+      "deletions": 3,
+      "date": "2026-03-03"
+    },
+    "coverage": 93.94,
+    "test_count": 15,
     "failed_tests": 0,
     "conclusion": "success"
   }

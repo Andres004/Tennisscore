@@ -110,6 +110,14 @@ describe("Tennis Scorer", () => {
     expect(tennis.score()).toEqual("Game for Player 2");
   });
 
+  it("vuelve a Deuce si el jugador con desventaja anota y empata en 4 o más", () => {
+    let tennis = new Tennis();
+    for (let i = 0; i < 3; i++) { tennis.player1Scores(); tennis.player2Scores(); }
+    tennis.player1Scores();
+    tennis.player2Scores();
+    expect(tennis.score()).toEqual("Deuce");
+  });
+
 
 });
 
