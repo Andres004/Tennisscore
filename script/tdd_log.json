@@ -528,9 +528,31 @@
     "testId": 20
   },
   {
-    "commitId": "HEAD",
+    "commitId": "cc6c776005ab83283e18c6c9c2a8fb7a79962158",
     "commitName": "test:vuelve a Deuce si el jugador con desventaja anota y empata en 4 o más, 15/15",
     "commitTimestamp": 1772504800048,
     "testId": 20
+  },
+  {
+    "numPassedTests": 15,
+    "failedTests": 1,
+    "numTotalTests": 16,
+    "timestamp": 1772505017766,
+    "success": false,
+    "testId": 21
+  },
+  {
+    "numPassedTests": 16,
+    "failedTests": 0,
+    "numTotalTests": 16,
+    "timestamp": 1772505047935,
+    "success": true,
+    "testId": 21
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test: si el marcador es 5-4 => Advantage for Player 1, 16/16",
+    "commitTimestamp": 1772505093686,
+    "testId": 21
   }
 ]
