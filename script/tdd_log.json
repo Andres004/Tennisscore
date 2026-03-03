@@ -584,9 +584,23 @@
     "testId": 24
   },
   {
-    "commitId": "HEAD",
+    "commitId": "85cb6586b7a65a0771abc480687b9bc364801678",
     "commitName": "refactor:arreglo de valores de los numeros evitando exceso de if para asi acceder por indices",
     "commitTimestamp": 1772540909372,
     "testId": 24
+  },
+  {
+    "numPassedTests": 17,
+    "failedTests": 0,
+    "numTotalTests": 17,
+    "timestamp": 1772540928501,
+    "success": true,
+    "testId": 25
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test:successful",
+    "commitTimestamp": 1772541003204,
+    "testId": 25
   }
 ]

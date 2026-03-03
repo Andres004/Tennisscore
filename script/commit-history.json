@@ -456,17 +456,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "85cb6586b7a65a0771abc480687b9bc364801678",
     "author": "unknown",
     "commit": {
       "date": "2026-03-03T12:28:28.000Z",
       "message": "refactor:arreglo de valores de los numeros evitando exceso de if para asi acceder por indices",
-      "url": "https://github.com/Andres004/Tennisscore/commit/HEAD"
+      "url": "https://github.com/Andres004/Tennisscore/commit/85cb6586b7a65a0771abc480687b9bc364801678"
     },
     "stats": {
       "total": 35,
       "additions": 10,
       "deletions": 25,
+      "date": "2026-03-03"
+    },
+    "coverage": 92,
+    "test_count": 17,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "unknown",
+    "commit": {
+      "date": "2026-03-03T12:30:01.000Z",
+      "message": "test:successful",
+      "url": "https://github.com/Andres004/Tennisscore/commit/HEAD"
+    },
+    "stats": {
+      "total": 0,
+      "additions": 0,
+      "deletions": 0,
       "date": "2026-03-03"
     },
     "coverage": 92,
