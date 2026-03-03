@@ -434,9 +434,31 @@
     "testId": 14
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8ba5bef4c8a174d70a209e2b8c28f4db75464934",
     "commitName": "feat:html implementation and presenter",
     "commitTimestamp": 1772503141732,
     "testId": 15
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 1,
+    "numTotalTests": 11,
+    "timestamp": 1772503309686,
+    "success": false,
+    "testId": 16
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 0,
+    "numTotalTests": 11,
+    "timestamp": 1772503438287,
+    "success": true,
+    "testId": 16
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test: succesfull,si el juego está en Deuce y el jugador 1 anota => Advantage for Player 1, 11/11",
+    "commitTimestamp": 1772503523294,
+    "testId": 16
   }
 ]

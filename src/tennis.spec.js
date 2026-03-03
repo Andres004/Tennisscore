@@ -70,7 +70,6 @@ describe("Tennis Scorer", () => {
 
   it("jugador 1 anota 3 veces y jugador 2 anota 3 veces => Deuce", () => {
     let tennis = new Tennis();
-    // 3 puntos para cada uno
     tennis.player1Scores();
     tennis.player1Scores();
     tennis.player1Scores();
@@ -80,6 +79,13 @@ describe("Tennis Scorer", () => {
     expect(tennis.score()).toEqual("Deuce");
 });
 
+
+  it("si el juego está en Deuce y el jugador 1 anota => Advantage for Player 1", () => {
+    let tennis = new Tennis();
+    for (let i = 0; i < 3; i++) { tennis.player1Scores(); tennis.player2Scores(); }
+    tennis.player1Scores();
+    expect(tennis.score()).toEqual("Advantage for Player 1");
+  });
 });
 
 

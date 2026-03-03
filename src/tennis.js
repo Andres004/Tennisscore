@@ -32,6 +32,10 @@ class Tennis {
         {
         return "Deuce";
         }
+
+        if (this.player1Points === 4 && this.player2Points === 3) {
+            return "Advantage for Player 1";
+        }
         
          if(this.player1Points == 4){
             return "Game for Player 1"
