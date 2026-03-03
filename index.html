@@ -1,16 +1,86 @@
 <!DOCTYPE html>
-<html xml:lang="es">
-  <head>
-    <title>Tennis Scorer</title>
-  </head>
-  <body>
-    <h1>Marcador de Tennis</h1>
-    
-    <div id="marcador-div">Love - Love</div>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Tennis Score - UCB</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eeeeee;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
 
-    <button id="btn-p1">Punto Jugador 1</button>
-    <button id="btn-p2">Punto Jugador 2</button>
+        .contenedor {
+            background-color: white;
+            padding: 30px;
+            border: 2px solid #003566; 
+            border-radius: 8px;
+            text-align: center;
+            width: 300px;
+        }
+
+        h1 {
+            color: #003566;
+            font-size: 1.2rem;
+            margin-top: 0;
+        }
+
+        #marcador-div {
+            background-color: #003566;
+            color: #e9d77d; 
+            padding: 20px;
+            border-radius: 5px;
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+
+        #marcador-div p {
+            margin: 0;
+        }
+
+        .botones {
+            display: flex;
+            gap: 10px;
+        }
+
+        button {
+            flex: 1;
+            padding: 10px;
+            cursor: pointer;
+            border: 1px solid #003566;
+            border-radius: 4px;
+            font-weight: bold;
+            color: #003566;
+        }
+
+        button:hover {
+            background-color: #f1e8c9;
+        }
+
+        button:active {
+            background-color: #f1e8c9;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="contenedor">
+        <h1>Marcador de Tenis</h1>
+        
+        <div id="marcador-div">
+            <p>Love - Love</p>
+        </div>
+
+        <div class="botones">
+            <button id="btn-p1">Punto P1</button>
+            <button id="btn-p2">Punto P2</button>
+        </div>
+    </div>
 
     <script type="module" src="./src/presenter.js"></script>
-  </body>
+</body>
 </html>
