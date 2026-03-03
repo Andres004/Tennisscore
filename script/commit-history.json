@@ -342,12 +342,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "420ab87622c220778b1d3c2b4721c83adf3da926",
     "author": "unknown",
     "commit": {
       "date": "2026-03-03T02:20:01.000Z",
       "message": "test: succesfull,si el jugador 1 tiene ventaja y anota de nuevo => Game for Player 1, 13/13",
-      "url": "https://github.com/Andres004/Tennisscore/commit/HEAD"
+      "url": "https://github.com/Andres004/Tennisscore/commit/420ab87622c220778b1d3c2b4721c83adf3da926"
     },
     "stats": {
       "total": 16,
@@ -357,6 +357,25 @@
     },
     "coverage": 93.94,
     "test_count": 13,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "unknown",
+    "commit": {
+      "date": "2026-03-03T02:22:04.000Z",
+      "message": "test: succesfull,si el jugador 2 tiene ventaja y anota de nuevo => Game for Player 2, 14/14",
+      "url": "https://github.com/Andres004/Tennisscore/commit/HEAD"
+    },
+    "stats": {
+      "total": 22,
+      "additions": 16,
+      "deletions": 6,
+      "date": "2026-03-03"
+    },
+    "coverage": 93.94,
+    "test_count": 14,
     "failed_tests": 0,
     "conclusion": "success"
   }

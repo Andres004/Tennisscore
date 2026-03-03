@@ -95,12 +95,22 @@ describe("Tennis Scorer", () => {
   });
 
   it("si el jugador 1 tiene ventaja y anota de nuevo => Game for Player 1", () => {
-  let tennis = new Tennis();
-  for (let i = 0; i < 3; i++) { tennis.player1Scores(); tennis.player2Scores(); }
-  tennis.player1Scores();
-  tennis.player1Scores();
-  expect(tennis.score()).toEqual("Game for Player 1");
-});
+    let tennis = new Tennis();
+    for (let i = 0; i < 3; i++) { tennis.player1Scores(); tennis.player2Scores(); }
+    tennis.player1Scores();
+    tennis.player1Scores();
+    expect(tennis.score()).toEqual("Game for Player 1");
+  });
+
+   it("si el jugador 2 tiene ventaja y anota de nuevo => Game for Player 2", () => {
+    let tennis = new Tennis();
+    for (let i = 0; i < 3; i++) { tennis.player1Scores(); tennis.player2Scores(); }
+    tennis.player2Scores();
+    tennis.player2Scores();
+    expect(tennis.score()).toEqual("Game for Player 2");
+  });
+
+
 });
 
 

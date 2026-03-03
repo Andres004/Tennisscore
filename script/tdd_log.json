@@ -492,9 +492,23 @@
     "testId": 18
   },
   {
-    "commitId": "HEAD",
+    "commitId": "420ab87622c220778b1d3c2b4721c83adf3da926",
     "commitName": "test: succesfull,si el jugador 1 tiene ventaja y anota de nuevo => Game for Player 1, 13/13",
     "commitTimestamp": 1772504402631,
     "testId": 18
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 0,
+    "numTotalTests": 14,
+    "timestamp": 1772504495867,
+    "success": true,
+    "testId": 19
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test: succesfull,si el jugador 2 tiene ventaja y anota de nuevo => Game for Player 2, 14/14",
+    "commitTimestamp": 1772504526124,
+    "testId": 19
   }
 ]
