@@ -437,12 +437,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "a9174d5d9a8fed50ee34bd48b2ac3aac06c3d42f",
     "author": "unknown",
     "commit": {
       "date": "2026-03-03T12:22:14.000Z",
       "message": "test: no permite anotar mas puntos si es que un jugador ya gano, 17/17",
-      "url": "https://github.com/Andres004/Tennisscore/commit/HEAD"
+      "url": "https://github.com/Andres004/Tennisscore/commit/a9174d5d9a8fed50ee34bd48b2ac3aac06c3d42f"
     },
     "stats": {
       "total": 11,
@@ -451,6 +451,25 @@
       "date": "2026-03-03"
     },
     "coverage": 94.12,
+    "test_count": 17,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "unknown",
+    "commit": {
+      "date": "2026-03-03T12:28:28.000Z",
+      "message": "refactor:arreglo de valores de los numeros evitando exceso de if para asi acceder por indices",
+      "url": "https://github.com/Andres004/Tennisscore/commit/HEAD"
+    },
+    "stats": {
+      "total": 35,
+      "additions": 10,
+      "deletions": 25,
+      "date": "2026-03-03"
+    },
+    "coverage": 92,
     "test_count": 17,
     "failed_tests": 0,
     "conclusion": "success"

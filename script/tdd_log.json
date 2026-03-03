@@ -570,9 +570,23 @@
     "testId": 23
   },
   {
-    "commitId": "HEAD",
+    "commitId": "a9174d5d9a8fed50ee34bd48b2ac3aac06c3d42f",
     "commitName": "test: no permite anotar mas puntos si es que un jugador ya gano, 17/17",
     "commitTimestamp": 1772540536037,
     "testId": 23
+  },
+  {
+    "numPassedTests": 17,
+    "failedTests": 0,
+    "numTotalTests": 17,
+    "timestamp": 1772540614276,
+    "success": true,
+    "testId": 24
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor:arreglo de valores de los numeros evitando exceso de if para asi acceder por indices",
+    "commitTimestamp": 1772540909372,
+    "testId": 24
   }
 ]

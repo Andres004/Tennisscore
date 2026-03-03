@@ -6,27 +6,9 @@ class Tennis {
 
     score()
     {
-        let player1Score = "Love";
-        let player2Score = "Love";
-
-        if(this.player1Points == 1){
-            player1Score= "15"
-        } 
-        if(  this.player2Points == 1){
-            player2Score= "15"
-        }
-        if(this.player1Points == 2){
-            player1Score= "30"
-        }
-        if(this.player2Points == 2){
-            player2Score= "30"
-        }
-        if(this.player1Points == 3){
-            player1Score= "40"
-        }
-        if(this.player2Points == 3){
-            player2Score= "40"
-        }
+        const scoresNames = ["Love", "15", "30", "40"];
+        let player1Score = scoresNames[this.player1Points] || "40";
+        let player2Score = scoresNames[this.player2Points] || "40";
 
         if (this.player1Points >= 3 && this.player1Points === this.player2Points) 
         {
@@ -64,11 +46,14 @@ class Tennis {
 
 
     player1Scores(){
-        this.player1Points++;
+       if (!this.score().includes("Game")) {
+            this.player1Points++;
+        }
     }
     player2Scores(){
-        this.player2Points++;
-    }
-}
+        if (!this.score().includes("Game")) {
+            this.player2Points++;
+        }
+    }}
 
 export default Tennis;
