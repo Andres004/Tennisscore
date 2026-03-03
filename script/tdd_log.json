@@ -612,9 +612,15 @@
     "testId": 26
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b2e85ad442991f68baa55bfe4cb74f30e6c8cc4c",
     "commitName": "refactor:simplificar la logica de advantage y logica usando la diferencia entre los scores",
     "commitTimestamp": 1772541285336,
     "testId": 26
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test:successful",
+    "commitTimestamp": 1772541352025,
+    "testId": 27
   }
 ]

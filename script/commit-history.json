@@ -494,17 +494,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b2e85ad442991f68baa55bfe4cb74f30e6c8cc4c",
     "author": "unknown",
     "commit": {
       "date": "2026-03-03T12:34:44.000Z",
       "message": "refactor:simplificar la logica de advantage y logica usando la diferencia entre los scores",
-      "url": "https://github.com/Andres004/Tennisscore/commit/HEAD"
+      "url": "https://github.com/Andres004/Tennisscore/commit/b2e85ad442991f68baa55bfe4cb74f30e6c8cc4c"
     },
     "stats": {
       "total": 37,
       "additions": 12,
       "deletions": 25,
+      "date": "2026-03-03"
+    },
+    "coverage": 100,
+    "test_count": 17,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "unknown",
+    "commit": {
+      "date": "2026-03-03T12:35:50.000Z",
+      "message": "test:successful",
+      "url": "https://github.com/Andres004/Tennisscore/commit/HEAD"
+    },
+    "stats": {
+      "total": 2,
+      "additions": 1,
+      "deletions": 1,
       "date": "2026-03-03"
     },
     "coverage": 100,

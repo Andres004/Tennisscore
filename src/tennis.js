@@ -13,7 +13,6 @@ class Tennis {
 
         if (this.player1Points >= 4 || this.player2Points >= 4) {
             const diferencia = this.player1Points - this.player2Points;
-
             if (diferencia === 1) 
                 return "Advantage for Player 1";
             if (diferencia === -1) 
@@ -41,6 +40,7 @@ class Tennis {
         if (!this.score().includes("Game")) {
             this.player2Points++;
         }
+        
     }}
 
 export default Tennis;
