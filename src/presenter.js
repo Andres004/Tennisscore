@@ -1,17 +1,27 @@
-/*
-import sumar from "./sumador";
+import Tennis from "./tennis.js";
 
-const first = document.querySelector("#primer-numero");
-const second = document.querySelector("#segundo-numero");
-const form = document.querySelector("#sumar-form");
-const div = document.querySelector("#resultado-div");
+const btnP1 = document.querySelector("#btn-p1");
+const btnP2 = document.querySelector("#btn-p2");
+const divMarcador = document.querySelector("#marcador-div");
 
-form.addEventListener("submit", (event) => {
-  event.preventDefault();
+const juego = new Tennis();
 
-  const firstNumber = Number.parseInt(first.value);
-  const secondNumber = Number.parseInt(second.value);
+// Verificación inicial
+console.log("Botón 1 encontrado:", btnP1);
+console.log("Botón 2 encontrado:", btnP2);
 
-  div.innerHTML = "<p>" + sumar(firstNumber, secondNumber) + "</p>";
+btnP1.addEventListener("click", (event) => {
+    event.preventDefault(); // Por si acaso están dentro de un form
+    juego.player1Scores();
+    const resultado = juego.score();
+    console.log("Resultado P1:", resultado);
+    divMarcador.innerHTML = "<p>" + resultado + "</p>";
 });
- */
+
+btnP2.addEventListener("click", (event) => {
+    event.preventDefault();
+    juego.player2Scores();
+    const resultado = juego.score();
+    console.log("Resultado P2:", resultado);
+    divMarcador.innerHTML = "<p>" + resultado + "</p>";
+});
