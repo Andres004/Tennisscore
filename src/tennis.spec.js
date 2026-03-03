@@ -125,6 +125,15 @@ describe("Tennis Scorer", () => {
     expect(tennis.score()).toEqual("Advantage for Player 1");
   });
 
+  it("no debería permitir seguir sumando puntos si el juego ya terminó", () => {
+    let tennis = new Tennis();
+    for (let i = 0; i < 4; i++) { tennis.player1Scores(); }
+    tennis.player1Scores();
+    
+    tennis.player2Scores();
+    expect(tennis.score()).toEqual("Game for Player 1");
+  });
+
 
 });
 
