@@ -25,9 +25,9 @@ Jugador 2 anota 2 veces jugador 1 en 0 => "Love - 30" ok
 Jugador 2 anota 3 veces jugador 1 en 0=> "Love - 40" ok
 Jugador 2 anota 4 veces jugador 1 en 0=> "Game for Player 2" ok
 --
-Jugador 1 anota 3 veces jugador 2 anota 3 veces=> "Deuce"
-Si el juego esta en Deuce jugador 1 anota => "Advantage for Player 1"
-estado en Advantage del jugador 1 anota una vez mas => "Game For Player"
+Jugador 1 anota 3 veces jugador 2 anota 3 veces=> "Deuce" ok
+Si el juego esta en Deuce jugador 1 anota => "Advantage for Player 1" ok
+estado en Advantage del jugador 1 anota una vez mas => "Game For Player" ok
 --Pruebas similares a lo anterior para jugador 2
 
 Para el diseno pensamos en esta estructura, que iremos desarrollando 

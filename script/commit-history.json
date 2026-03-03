@@ -304,12 +304,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "9ba48366a84a99f16a09a39766860a5a64d4f3f5",
     "author": "unknown",
     "commit": {
       "date": "2026-03-03T02:05:22.000Z",
       "message": "test: succesfull,si el juego está en Deuce y el jugador 1 anota => Advantage for Player 1, 11/11",
-      "url": "https://github.com/Andres004/Tennisscore/commit/HEAD"
+      "url": "https://github.com/Andres004/Tennisscore/commit/9ba48366a84a99f16a09a39766860a5a64d4f3f5"
     },
     "stats": {
       "total": 12,
@@ -319,6 +319,25 @@
     },
     "coverage": 100,
     "test_count": 11,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "unknown",
+    "commit": {
+      "date": "2026-03-03T02:08:40.000Z",
+      "message": "test: succesfull,si el juego está en Deuce y el jugador 2 anota => Advantage for Player 2, 12/12",
+      "url": "https://github.com/Andres004/Tennisscore/commit/HEAD"
+    },
+    "stats": {
+      "total": 17,
+      "additions": 14,
+      "deletions": 3,
+      "date": "2026-03-03"
+    },
+    "coverage": 100,
+    "test_count": 12,
     "failed_tests": 0,
     "conclusion": "success"
   }
